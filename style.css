@@ -914,3 +914,101 @@ h2 {
         transform: translateY(0);
     }
 }
+
+/* Responsive layout for desktop and mobile */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        padding: 80px 40px;
+    }
+
+    .hero h2 {
+        font-size: 48px;
+    }
+
+    .services,
+    .service-container,
+    .services-container {
+        width: 100%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero {
+        padding: 50px 16px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+/* Responsive layout for desktop and mobile */
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        padding: 80px 40px;
+    }
+
+    .hero h2 {
+        font-size: 48px;
+    }
+
+    .services,
+    .service-container,
+    .services-container {
+        width: 100%;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero {
+        padding: 50px 16px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
