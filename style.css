@@ -1,0 +1,916 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #007BFF;
+    color: #222;
+}
+
+header {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    background-color: #111;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #333;
+}
+/* SERVICES SECTION */
+
+.services {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.services h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #f4f4f4;
+    width: 220px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.service-card h3 {
+    font-size: 22px;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.service-card span {
+    font-weight: bold;
+    font-size: 18px;
+}
+/* ABOUT SECTION */
+
+.about {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 15px auto;
+    line-height: 1.7;
+    font-size: 17px;
+}
+/* CONTACT SECTION */
+
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.contact .button {
+    margin-top: 20px;
+}
+/* FOOTER */
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+footer p {
+    margin: 8px 0;
+    font-size: 14px;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* MOBILE DESIGN */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 15px 10px;
+    }
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 70px 20px;
+    }
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .services h2,
+    .about h2,
+    .contact h2 {
+        font-size: 28px;
+    }
+
+    .service-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .button {
+        padding: 13px 22px;
+    }
+}
+/* PROFESSIONAL BARBERSHOP STYLE */
+
+header {
+    background-color: #0b0b0b;
+    color: white;
+}
+
+.hero {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.hero h2 {
+    color: white;
+}
+
+.hero p {
+    color: white;
+}
+
+.button {
+    background-color: #d4af37;
+    color: #111;
+}
+
+.button:hover {
+    background-color: #f0c94d;
+}
+
+.services {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #0B1F3A;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 45px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #111;
+    color: white;
+    width: 240px;
+    padding: 30px 25px;
+    border-radius: 14px;
+    border: 2px solid #d4af37;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(212, 175, 55, 0.25);
+}
+
+.service-card h3 {
+    font-size: 23px;
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+}
+
+.service-card span {
+    display: block;
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #d4af37;
+}
+
+
+
+/* ABOUT */
+
+.about {
+    background-color: white;
+    color: #222;
+}
+
+.about h2 {
+    color: #111;
+}
+
+.about p {
+    color: #333;
+}
+
+
+/* CONTACT */
+
+.contact {
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+.contact h2 {
+    color: #111;
+}
+
+.contact p {
+    color: #333;
+}
+
+.contact .button {
+    background-color: #d4af37;
+    color: #111;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #0b0b0b;
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+/* APPOINTMENT FORM */
+
+.appointment-form {
+    max-width: 450px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.appointment-form input,
+.appointment-form select {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.appointment-form button {
+    padding: 14px;
+    background-color: #d4af37;
+    color: #111;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.appointment-form button:hover {
+    background-color: #f0c94d;
+}
+/* FLOATING WHATSAPP BUTTON */
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 14px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+    transform: scale(1.05);
+}:hover {
+    background-color: #128C7E;
+}
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px;
+}
+.why-us {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.why-us h2 {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.why-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.why-card {
+    background-color: #111;
+    color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.why-card h3 {
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.why-card p {
+    line-height: 1.6;
+    color: white;
+}
+.why-us {
+    background-color: #0B1F3A;
+}
+.why-card {
+    border: 2px solid #d4af37;
+}
+.about {
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+.reviews {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #0B1F3A;
+}
+
+.reviews h2 {
+    font-size: 34px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.review-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    background-color: #111;
+    color: white;
+    width: 250px;
+    padding: 30px 25px;
+    border-radius: 14px;
+    border-left: 5px solid #d4af37;
+    border-right: 5px solid #d4af37;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.stars {
+    color: #d4af37;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.review-card p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.review-card h3 {
+    color: #d4af37;
+    margin-top: 20px;
+}
+.opening-hours {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #111;
+    border: 2px solid #d4af37;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.opening-hours h3 {
+    color: #d4af37;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.opening-hours p {
+    color: white;
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.opening-hours strong {
+    color: #d4af37;
+}
+.hero .button {
+    padding: 16px 30px;
+    font-size: 17px;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.hero .button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(212, 175, 55, 0.35);
+}
+.hero-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 500px;
+    margin: 30px auto 0;
+    gap: 20px;
+}
+
+.hero-buttons .button {
+    flex: 1;
+    text-align: center;
+}
+
+.call-button {
+    background-color: #25D366;
+    color: white !important;
+    border: 2px solid #25D366;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.call-button:hover {
+    background-color: #1ebe5d;
+    border-color: #1ebe5d;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 600px) {
+    .hero-buttons {
+        gap: 10px;
+    }
+
+    .hero-buttons .button {
+        padding: 13px 10px;
+        font-size: 14px;
+    }
+}
+.contact p {
+    line-height: 1.7;
+}
+
+.contact p strong {
+    color: #d4af37;
+}
+.directions-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 13px 22px;
+    background-color: #d4af37;
+    color: #111;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #d4af37;
+    transition: 0.3s;
+}
+
+.directions-button:hover {
+    background-color: transparent;
+    color: #d4af37;
+}
+/* =========================
+   SERVICES SECTION
+   ========================= */
+
+.services {
+    padding: 70px 20px;
+    text-align: center;
+    background-color: #0B1F3A;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.service-category {
+    color: #d4af37;
+    font-size: 26px;
+    margin: 25px 0 30px;
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background-color: #111;
+    color: white;
+    width: 240px;
+    padding: 30px 25px;
+    border-radius: 14px;
+    border: 2px solid #d4af37;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(212, 175, 55, 0.25);
+}
+
+.service-card h3 {
+    font-size: 22px;
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+}
+
+.service-card span {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d4af37;
+}
+
+/* =========================
+   NAIL PARLOUR
+   ========================= */
+
+.nail-title {
+    margin-top: 70px;
+}
+
+.nail-location {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.nail-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.nail-card {
+    background-color: #111;
+    color: white;
+    width: 260px;
+    padding: 28px;
+    border-radius: 14px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: left;
+}
+
+.nail-card h3 {
+    color: #d4af37;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nail-card p {
+    color: white;
+    line-height: 1.5;
+    margin: 8px 0;
+}
+
+.nail-note {
+    color: #d4af37;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 600px) {
+
+    .services {
+        padding: 55px 15px;
+    }
+
+    .services h2 {
+        font-size: 30px;
+    }
+
+    .service-category {
+        font-size: 23px;
+    }
+
+    .service-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .nail-card {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+.nail-title {
+    color: #d4af37 !important;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nail-location {
+    color: #ffffff !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nail-note {
+    color: #d4af37 !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* =========================
+   APPOINTMENT FORM
+   ========================= */
+
+.appointment-form {
+    max-width: 450px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.appointment-form input,
+.appointment-form select {
+    padding: 15px;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: white;
+    color: #111;
+}
+
+.appointment-form input::placeholder {
+    color: #666;
+}
+
+.appointment-form button {
+    padding: 15px;
+    background-color: #d4af37;
+    color: #111;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.appointment-form button:hover {
+    background-color: #f0c94d;
+}
+.about h2 {
+    color: #d4af37 !important;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about p {
+    color: white !important;
+}
+.contact h2 {
+    color: #d4af37 !important;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact p {
+    color: white !important;
+}
+/* ABOUT SECTION */
+.about {
+    background-color: #0B1F3A !important;
+}
+
+/* CONTACT SECTION */
+.contact {
+    background-color: #111111 !important;
+}
+.contact h3 {
+    color: white !important;
+    font-weight: bold;
+    font-size: 26px;
+}
+/* =========================
+   FINAL DESIGN POLISH
+   ========================= */
+
+body {
+    line-height: 1.6;
+}
+
+h2 {
+    letter-spacing: 0.5px;
+}
+
+.button {
+    transition: 0.3s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+/* Section spacing */
+.about,
+.contact,
+.why-us,
+.reviews,
+.services {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/* Better mobile spacing */
+@media (max-width: 600px) {
+    .about,
+    .contact,
+    .why-us,
+    .reviews,
+    .services {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+}
+.contact h3 {
+    color: white !important;
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 35px;
+}
+.contact > h3 {
+    color: white !important;
+    text-align: center !important;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 35px auto 20px;
+}
+
+/* Welcome text animation */
+.hero p {
+    animation: welcomeAnimation 1.5s ease-out;
+}
+
+@keyframes welcomeAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
