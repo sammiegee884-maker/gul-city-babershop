@@ -41,7 +41,7 @@ sees the same numbers.
 ### Other quick edits (all in `script.js`, `BUSINESS` object)
 
 ```js
-phoneDisplay / phoneRaw / whatsapp : "256787597444"
+phoneDisplay / phoneRaw / whatsapp : "256774550630"
 email, address, maps
 tz: "Africa/Kampala"   open: 7.5   close: 21.5   // 7:30 AM – 9:30 PM
 ```
@@ -60,7 +60,7 @@ other arrays you may want to edit.
   service in the booking form and scrolls you there.
 - **Booking → WhatsApp**: validates name/phone/service/date/time (rejects past dates and
   times outside 7:30–21:30), shows a live preview of the message, then opens
-  `wa.me/256787597444` with it pre-typed.
+  `wa.me/256774550630` with it pre-typed.
 - **Reviews carousel** with dots, arrows, swipe, keyboard arrows and pause-on-hover.
 - **Scroll reveal** on every section, animated stat counters, sticky glass header with
   scroll-spy underlining the current section, and a gold progress bar at the very top.
