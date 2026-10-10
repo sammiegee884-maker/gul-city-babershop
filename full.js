@@ -1,0 +1,20 @@
+const puppeteer=require('puppeteer');
+(async()=>{const b=await puppeteer.launch({args:['--no-sandbox','--disable-dev-shm-usage']});
+const p=await b.newPage();
+await p.setViewport({width:1440,height:960,deviceScaleFactor:1});
+await p.goto('http://localhost:8080/',{waitUntil:'networkidle2'});
+// force every reveal in so the long shot isn't half-transparent
+await p.evaluate(async()=>{document.querySelectorAll('.reveal').forEach(e=>e.classList.add('is-in'));
+  window.scrollTo(0,document.body.scrollHeight);await new Promise(r=>setTimeout(r,700));window.scrollTo(0,0);});
+await new Promise(r=>setTimeout(r,600));
+await p.screenshot({path:'/home/user/gulu-city-barbershop/preview-desktop.png',fullPage:true});
+const m=await b.newPage();
+await m.setViewport({width:390,height:844,deviceScaleFactor:2,isMobile:true,hasTouch:true});
+await m.goto('http://localhost:8080/',{waitUntil:'networkidle2'});
+await m.evaluate(async()=>{document.querySelectorAll('.reveal').forEach(e=>e.classList.add('is-in'));
+  window.scrollTo(0,document.body.scrollHeight);await new Promise(r=>setTimeout(r,700));window.scrollTo(0,0);});
+await new Promise(r=>setTimeout(r,600));
+await m.screenshot({path:'/home/user/gulu-city-barbershop/preview-mobile.png',fullPage:true});
+const dims=await p.evaluate(()=>({pageH:document.body.scrollHeight}));
+console.log('page height at 1440:',dims.pageH);
+await b.close();})();

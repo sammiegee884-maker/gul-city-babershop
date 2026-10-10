@@ -1,0 +1,69 @@
+=== RENDER CHECK ===
+{
+ "cards": 10,
+ "fontsUsed": {
+  "h1": "Cinzel :: 80.8px / lh 75.952px",
+  "eyebrow": "\"Bebas Neue\"",
+  "body": "Manrope"
+ },
+ "loaded": [
+  "Bebas Neue 400",
+  "Cinzel 500",
+  "Cinzel 700",
+  "Cinzel 900",
+  "Manrope 400",
+  "Manrope 700",
+  "Manrope 800"
+ ],
+ "heroOverflowsX": false,
+ "scrollW": 1440,
+ "innerW": 1440,
+ "status": "Open now · Closes 9:30 PM EAT",
+ "priceAlign": {
+  "cardW": 340,
+  "footJustify": "space-between"
+ },
+ "sectionHeads": 6,
+ "h1Overflow": {
+  "text": "Gulu City",
+  "w": 653,
+  "colW": 653,
+  "clipped": false
+ },
+ "iconChecks": {
+  "uses": 35,
+  "tooSmall": 0
+ },
+ "carousel": {
+  "index": 0,
+  "slideLeftOffset": 0,
+  "slideW": 940,
+  "carW": 940
+ },
+ "imgStatus": [
+  "img/shop.jpg:broken",
+  "img/fade.jpg:broken",
+  "img/beard.jpg:broken",
+  "img/nails.jpg:broken"
+ ]
+}
+
+=== INTERACTION ===
+{"colourVisible":4,"afterSearch":["Kids Haircut"],"selected":"beard"}
+
+=== WHATSAPP PAYLOAD ===
+Hello Gulu City Barbershop!
+
+I would like to book an appointment.
+
+Name: Ssaabako Peter
+Phone: 0772345678
+Service: Beard Trim (UGX 5,000)
+Date: Sunday, 11 October 2026 (dd/mm/yyyy: 11/10/2026)
+Time: 17:00
+
+=== MOBILE 390px ===
+{"overflowX":false,"scrollW":390,"innerW":390,"offender":"DIV.hero-spot right=468","burgerVisible":"block"}
+
+=== NETWORK/CONSOLE ERRORS ===
+none
